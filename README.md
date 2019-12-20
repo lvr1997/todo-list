@@ -1,29 +1,36 @@
-# todo-list
+# 基于Vue的todo-list应用
 
-## Project setup
-```
-npm install
-```
+## 项目初始化
 
-### Compiles and hot-reloads for development
+> 推荐使用`cnpm` ，速度会非常快
+
 ```
-npm run serve
+npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
 
-### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+cnpm install
 ```
 
-### Lints and fixes files
+### 编译并热加载以进行开发
 ```
-npm run lint
+cnpm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 构建生产
+```
+cnpm run build
+```
+
+### 运行测试
+```
+cnpm run test
+```
+
+### 整理和修复文件
+```
+cnpm run lint
+```
+
+### 自定义配置
+点击 [Configuration Reference](https://cli.vuejs.org/config/).
