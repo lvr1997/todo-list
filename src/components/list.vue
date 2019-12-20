@@ -6,7 +6,7 @@
 		
 		<ul v-if="todos.length">
 			任务列表：
-			<todoListItem v-for="todo in todos"
+			<listItem v-for="todo in todos"
 										:key="todo.id"
 										:todo="todo"
 										@remove="removeTodo"/>
@@ -16,14 +16,14 @@
 </template>
 
 <script>
-	import todoListItem from './todoListItem.vue'
+	import listItem from './listItem.vue'
 	
 	let nextTodoId = 1
 	
 	export default {
 		props: ['msg'], //由子组件向父组件传参
 		components: {
-			todoListItem
+			listItem
 		},
 		data() {
 			return {

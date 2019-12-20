@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <todoList msg="Welcome to Your Vue.js App"/>
+    <layout></layout>
   </div>
 </template>
 
 <script>
-	import todoList from './components/todoList.vue'
+	import layout from './components/layout.vue'
 
 	export default {
 		name: 'app',
 		components: {
-			todoList
+			layout
 		}
 	}
 </script>
