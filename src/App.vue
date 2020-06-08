@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <layout></layout>
+    <Todo></Todo>
   </div>
 </template>
 
 <script>
-	import layout from './components/layout.vue'
+	import Todo from './components/todo'
 
 	export default {
 		name: 'app',
 		components: {
-			layout
+			Todo
 		}
 	}
 </script>
